@@ -355,7 +355,7 @@ footer p {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 1.5rem;
+  padding: 0.5rem;
   background-color: #ffffff;
   border-radius: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -364,7 +364,7 @@ footer p {
 
 .project-img {
   width: 100%;
-  max-height: 200px; 
+  max-height: 100px; 
   object-fit: cover;
   border-radius: 1rem 1rem 0 0; 
 }
@@ -382,4 +382,35 @@ footer p {
   border: 1px solid #a3a3a3;
   padding: 0.5rem 1rem;
   border-radius: 1rem;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 10px;
+  column-gap: 10px;
+  padding:0 10px;
+}
+
+.project-item {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 20px; /* increased border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%; /* set a fixed width to make it square */
+  height: auto; /* set a fixed height to make it square */
+  display: flex; /* use flexbox to center the content vertically */
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+#typewriter-text-container {
+  display: inline-block;
+  max-width: 250px; /* adjust this value to the width of the longest text */
+}
+
+#typewriter-text {
+  overflow: hidden;
+  white-space: nowrap;
 }

@@ -37,15 +37,19 @@
   </nav>
   <section id="profile">
     <div class="section__pic-container">
-      <img src="./assets/profile-pc.jpg" />
+      <img src="./assets/profile-pc.jpg"/>
     </div>
     <div class="section__text">
       <p class="section__text__p1">Hello, I'm</p>
       <h1 class="title" style="color: rgb(217, 159, 235);">Aditi Tyagi</h1>
-      <p class="section__text__p2">Frontend Developer</p>
+      <p class="section__text__p2">
+        <span id="typewriter-text-container">
+          <span id="typewriter-text">Frontend Developer</span>
+        </span>
+      </p>
       <div class="btn-container">
         <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">Download CV</button>
-        <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+        <button class="btn btn-color-1" onclick="location.href='mailto:tyagi.aditi03@gmail.com';">Contact Info</button>
       </div>
       <div id="socials-container">
         <img src="./assets/linkedin.jpg" alt="My LinkedIn profile" class="icon" onclick="location.href='https://in.linkedin.com/in/aditi-tyagi-591183230'" />
@@ -55,7 +59,7 @@
   </section>
   <section id="about">
     <p class="section__text__p1">Get To Know More</p>
-    <h1 class="title" style="color: rgb(255, 255, 255);">About Me</h1>
+    <h1 class="title" style="color: rgb(217, 159, 235);">About Me</h1>
     <div class="section-container">
       <div class="text-container">
         <p>
@@ -125,44 +129,41 @@ I believe in the importance of staying curious and embracing learning opportunit
       </div>
     </div>
   </section>
-  
   <section id="projects">
     <p class="section__text__p1">Browse My Recent</p>
-    <h1 class="title" style="color: rgb(217, 159, 235);">Projects</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container color-container">
-          <h2 class="experience-sub-title project-title">QUIZZO</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/aditi-tyagi02/Quizzo'">Github</button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://quizzzoo.netlify.app/'">Live Demo</button>
-          </div>
+    <h1 class="title" style="color: rgb(217, 159, 235);">Projects</h1><br>
+    <div class="project-grid">
+      <div class="project-item">
+        <h2 class="experience-sub-title project-title">QUIZZO</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/aditi-tyagi02/Quizzo'">Github</button>
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://quizzzoo.netlify.app/'">Live Demo</button>
         </div>
-        <div class="details-container color-container">
-          <h2 class="experience-sub-title project-title">QUICK-PASS</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/aditi-tyagi02/Password-Generator'">Github</button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://quick-pass.netlify.app/'">Live Demo</button>
-          </div>
+      </div>
+      <div class="project-item">
+        <h2 class="experience-sub-title project-title">QUICK-PASS</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/aditi-tyagi02/Password-Generator'">Github</button>
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://quick-pass.netlify.app/'">Live Demo</button>
         </div>
-        <div class="details-container color-container">
-          <h2 class="experience-sub-title project-title">QR CODE Generator</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/aditi-tyagi02/Qr-code-generator'">Github</button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://jade-strudel-e7a9ac.netlify.app/'">Live Demo</button>
-          </div>
+      </div>
+      <div class="project-item">
+        <h2 class="experience-sub-title project-title">QR CODE Generator</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/aditi-tyagi02/Qr-code-generator'">Github</button>
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://jade-strudel-e7a9ac.netlify.app/'">Live Demo</button>
         </div>
-        <div class="details-container color-container">
-          <h2 class="experience-sub-title project-title">TIF->PNG Convertor</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/aditi-tyagi02/Convertor'">Github</button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://tif-convertor.netlify.app/'">Live Demo</button>
-          </div>
+      </div>
+      <div class="project-item">
+        <h2 class="experience-sub-title project-title">TIF->PNG Convertor</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/aditi-tyagi02/Convertor'">Github</button>
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://tif-convertor.netlify.app/'">Live Demo</button>
         </div>
       </div>
     </div>
   </section>
- 
+ <br><br>
   <footer>
     <p>Copyright &#169; 2024  Aditi Tyagi.<br> All Rights Reserved.</p>
   </footer>
